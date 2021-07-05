@@ -11,7 +11,19 @@ h5,
 h6 {
   font-family: "Uchen", serif;
 }
-
+/* menubar design starts here */
+.menubar {
+  text-align: right;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+.menubar a {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+  text-align: right;
+}
+/* menubar design ends here */
 /* section-1 design starts here */
 .section-1 {
   padding: 5% 3%;
@@ -45,7 +57,7 @@ h6 {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin-top: 15pxpx;
+  margin-top: 15px;
   display: inline-block;
 }
 .div2 img {
@@ -55,7 +67,7 @@ h6 {
   display: inline-block;
   margin-left: 100px;
 }
-/* section-1 design starts here */
+/* section-1 design ends here */
 
 /* section-2 design starts here */
 
@@ -72,7 +84,7 @@ h6 {
   border-radius: 30px;
   padding: 25pxpx 45pxs;
 }
-/* section-2 design starts here */
+/* section-2 design ends here */
 
 /* section-3 design starts here */
 .service {
@@ -109,7 +121,8 @@ h6 {
   width: 90%;
   margin: 0 auto;
 
-  background-color: wheat;
+  background-color: white;
+  box-shadow: 2px 2px 3px 2px;
   border-radius: 20px;
   display: flex;
 }
@@ -121,7 +134,7 @@ h6 {
   font-size: 50px;
   font-weight: bold;
 }
-/* section-4 design starts here */
+/* section-4 design ends here */
 
 /* footer section design starts here */
 footer {
@@ -142,4 +155,4 @@ footer p {
   color: tomato;
 }
 
-/* footer section design starts here */
+/* footer section design ends here */
